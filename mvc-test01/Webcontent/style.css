@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 17.6px;
+}
+p{
+    margin-bottom: 0.5rem;
+}
+
+.wrap-sec{
+    padding: 0.5rem;
+    max-width: 85%;
+    margin: 0 auto;
+}
+
+.title{
+    color: #2A8080;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.wrap-input{
+    display: flex;
+    gap: 0.3rem;
+    margin-bottom: 0.5rem;
+}
+
+.wrap-input p{
+    min-width: 8rem;
+    display: inline-block;
+    font-weight: bold;
+}
+
+.wrap-input input{
+    min-width: 15rem;
+}
+
+.wrap-raito{
+    margin: 2rem 0;
+}
+
+.wrap-raito label{
+    margin-right: 0.5rem;
+}
+
+.wrap-select :nth-child(n){
+    margin-bottom: 0.7rem;
+}
+
+.wrap-options{
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    margin-bottom: 0.8rem;
+}
+.wrap-options p{
+    margin: 0;
+}
